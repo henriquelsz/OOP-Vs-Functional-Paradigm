@@ -1,2 +1,2 @@
 # OOP-Vs-Functional-Paradigm
-The objective of this repository is to make a comparison between OOP languages ​​and Functional languages, bringing pros and cons of each one
+This repository offers a comprehensive framework for benchmarking a range of algorithms implemented across multiple programming languages, with a focus on comparing performance between Object-Oriented Programming (OOP) and Functional Programming (FP) approaches. By examining each approach’s efficiency and responsiveness under varying conditions, this project highlights the strengths and trade-offs of OOP and FP paradigms, providing insights into the most effective use cases for each.
