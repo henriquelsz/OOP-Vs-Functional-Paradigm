@@ -1,4 +1,4 @@
-def bubbleSort(list):
+def bubble_sort(list):
     l = len(list)
     for i in range(l):
         for j in range(l-i-1):
@@ -9,7 +9,7 @@ def bubbleSort(list):
             
     return list
 
-lista = [10,9,1,5,3,3]
+unsortedList = [10,9,1,5,3,3]
 
-ordenada = bubbleSort(lista)
-print(ordenada)
+sortedList = bubble_sort(unsortedList)
+print(sortedList)
