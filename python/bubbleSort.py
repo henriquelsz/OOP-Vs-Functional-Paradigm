@@ -1,3 +1,5 @@
+import time
+
 def bubble_sort(list):
     l = len(list)
     for i in range(l):
@@ -9,7 +11,10 @@ def bubble_sort(list):
             
     return list
 
-unsortedList = [10,9,1,5,3,3]
 
-sortedList = bubble_sort(unsortedList)
-print(sortedList)
+if __name__ == "__main__":
+    input = list(range(10000, 0, -1))
+    start_time = time.time()
+    sortedList = bubble_sort(input)
+    end_time = time.time()
+    print(f"Python Bubble Sort took {end_time - start_time:.4f} seconds")
